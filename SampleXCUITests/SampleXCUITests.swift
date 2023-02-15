@@ -51,7 +51,7 @@ class SampleXCUITests: XCTestCase {
         //visit the text page
         app.buttons["Text"].tap()
         
-        let enterText = "Hi Browserstack!!"
+        let enterText = "Hi Saibrahma !!"
         //verify that the text field has come up
         XCTAssert(app.textFields["Enter a text"].exists)
         
