@@ -8,7 +8,6 @@
 
 import Foundation
 import XCTest
-import Fakery
 
 class firstXCUITestCase: XCTestCase {
     
@@ -18,9 +17,6 @@ class firstXCUITestCase: XCTestCase {
         
         print("-----APP LAUNCHED----")
         app.launch()
-        let fake = Faker(locale: "nb-NO") //in Faker class init(locale: String = Config.defaultLocale)
-        let firstName = fake.name.firstName()
-        print(firstName)
         print("------APP TERMINATED")
         app.terminate()
         
